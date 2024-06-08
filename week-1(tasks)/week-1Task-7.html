@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Navigation Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            float: left;
+        }
+        .navbar ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar ul li a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website! We are glad to have you here. Explore our site to learn more about what we offer.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Our company is dedicated to providing the best service to our customers. Learn more about our journey and values here.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>We offer a variety of services to meet your needs. Check out what we have to offer and find the best solution for you.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Have any questions? Feel free to reach out to us. We are here to help you with any inquiries you may have.</p>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Read our latest blog posts to stay updated with industry news, tips, and insights from our team.</p>
+        </section>
+    </div>
+</body>
+</html>
